@@ -1,0 +1,22 @@
+DEBUG = True
+LOG_LEVEL = 'DEBUG'  # CRITICAL / ERROR / WARNING / INFO / DEBUG
+
+SERVER_NAME = 'local.docker:8000'
+SECRET_KEY = 'insecurekeyfordev' #90e94d726a544977f4bed52bdae6b5f7f8559ef0ada3ff12dd80984c691383d370d1efbc22654e6deeb504ad0cac28bf4cbb47b3a56a6f467c6f1d2f541a9c8be7d4ddd7e417fb9cebef4580555f85fc720e06c52f0d4212a436eb50f5bca6957945071cf74bf07592283b18c0f40d50badb887c07aca7a315595cd202d5b9a9
+
+# Flask-Mail.
+MAIL_DEFAULT_SENDER = 'contact@local.host'
+MAIL_SERVER = 'smtp.gmail.com'
+MAIL_PORT = 587
+MAIL_USE_TLS = True
+MAIL_USE_SSL = False
+MAIL_USERNAME = 'amiclot@linearlabs.io'
+MAIL_PASSWORD = 'musashi324225'
+
+# Celery.
+CELERY_BROKER_URL = 'redis://:devpassword@redis:6379/0'
+CELERY_RESULT_BACKEND = 'redis://:devpassword@redis:6379/0'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_REDIS_MAX_CONNECTIONS = 5
