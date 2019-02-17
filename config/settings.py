@@ -1,4 +1,4 @@
-DEBUG = True
+DEBUG = False
 LOG_LEVEL = 'DEBUG'  # CRITICAL / ERROR / WARNING / INFO / DEBUG
 
 SERVER_NAME = 'local.docker:8000'
