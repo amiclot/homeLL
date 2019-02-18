@@ -11,7 +11,7 @@ MAIL_PORT = 587
 MAIL_USE_TLS = True
 MAIL_USE_SSL = False
 MAIL_USERNAME = 'amiclot@linearlabs.io'
-MAIL_PASSWORD = 'musashi324225'
+MAIL_PASSWORD = 'Trumpet3'
 
 # Celery.
 CELERY_BROKER_URL = 'redis://:devpassword@redis:6379/0'

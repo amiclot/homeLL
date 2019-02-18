@@ -1,5 +1,5 @@
-SERVER_NAME = 'local.docker:8000'
+SERVER_NAME = '03a5574d.ngrok.io'
 MAIL_USERNAME = 'amiclot@linearlabs.io'
-MAIL_PASSWORD = 'musashi324225'
+MAIL_PASSWORD = 'Trumpet3'
 
 
